@@ -15,7 +15,8 @@
 #### Windows Tutorial
 Start by downloading the installer from here
 
-´Public beta comming soon!´
+[Disco-RD Windows Installer](https://github.com/FiskDk/Disco-RD-Windows-Installer/tree/master/Release)
+
 
 Then run the program. Your antivirus program might detect it, just ignore it.
 When the GUI opens up, type in 
