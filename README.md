@@ -1,4 +1,4 @@
-
+<img src="https://github.com/FiskDk/discord-security-exploiting/raw/master/disco-rd.png" width="128">
 # Disco-RD
 
   
@@ -29,7 +29,6 @@
 
   
   
-<img src="https://github.com/FiskDk/discord-security-exploiting/raw/master/disco-rd.png" width="64">
 
 ### Screenshots
 
