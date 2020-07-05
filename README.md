@@ -30,7 +30,7 @@
   
   
 
-![](https://github.com/FiskDk/discord-security-exploiting/raw/master/disco-rd.png =256x)
+![](https://github.com/FiskDk/discord-security-exploiting/raw/master/disco-rd.png =256x256)
 
   
 
