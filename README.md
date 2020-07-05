@@ -40,19 +40,19 @@
 
 ##### Disco-RD for web - Edge - Disco-RD Script V2
 
-![](https://github.com/FiskDk/disco-rd/blob/master/Assets/Web-Edge-Disco-RD-Script-2.png)
+![](https://github.com/FiskDk/disco-rd/blob/master/img/Web-Edge-Disco-RD-Script-2.png)
 
   
 
 ##### Disco-RD for Windows - Core V1.9 - Disco-RD Script V2
 
-![](https://github.com/FiskDk/disco-rd/blob/master/Assets/Windows-Core-1-9-Disco-RD-Script-2.png)
+![](https://github.com/FiskDk/disco-rd/blob/master/img/Windows-Core-1-9-Disco-RD-Script-2.png)
 
   
 
 ##### Disco-RD for iPadOS - iPadOS 13.4.1 (iPad Air 2) - Disco-RD Script V1.8.2
 
-![](https://github.com/FiskDk/disco-rd/blob/master/Assets/iPadOS-13-4-1-Disco-RD-Script-1-8-2.png)
+![](https://github.com/FiskDk/disco-rd/blob/master/img/iPadOS-13-4-1-Disco-RD-Script-1-8-2.png)
 
   
 
