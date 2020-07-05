@@ -29,10 +29,7 @@
 
   
   
-
-![](https://github.com/FiskDk/discord-security-exploiting/raw/master/disco-rd.png =256x256)
-
-  
+<img src="https://github.com/FiskDk/discord-security-exploiting/raw/master/disco-rd.png" width="64">
 
 ### Screenshots
 
