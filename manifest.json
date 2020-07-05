@@ -3,10 +3,6 @@
     "scope": "./",
     "display": "standalone",
     "orientation": "portrait",
-    "serviceworker": {
-      "src": "sw.js",
-      "scope": "/"
-    },
     "icons": [
       {
         "src": "meta/android/android-launchericon-512-512.png",
