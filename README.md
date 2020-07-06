@@ -128,7 +128,11 @@
 
 * When it says its done, you can go and close the window and launch Discord
 
+If it instantly closes when you run the code, the check if you have NodeJS installed
 
+[NodeJS](https://nodejs.org/en/)
+
+[Install NodeJS without admin permissions](http://abdelraoof.com/blog/2014/11/11/install-nodejs-without-admin-rights/)
   
 
 #### iOS and iPadOS Tutorial
