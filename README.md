@@ -60,13 +60,13 @@
 
   
 
-### Get Disco-RD
+## Get Disco-RD
 
 ###### Disco-RD is currently still in development. Bugs are to be expected.
 
   
 
-#### Windows Tutorial
+### Windows Tutorial
 
 ###### If you have any issues - then try the PowerShell version below
 
@@ -119,7 +119,7 @@
 
 ![](https://raw.githubusercontent.com/FiskDk/disco-rd/master/img/win/done.png)
 
-##### PowerShell tutorial
+### PowerShell tutorial
 ###### only use this if the installer dosn't work
 
 * Open a PowerShell CLI by pressing the Windows key + R on your keyboard - then type "powershell" and press enter
@@ -163,7 +163,7 @@ After you are done that you can proceed by installing the Disco-RD Shortcut by u
 
   
 
-#### Web Tutorial
+### Web Tutorial
 
   
 
