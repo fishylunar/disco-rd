@@ -79,45 +79,45 @@
 #### Step by step tutorial
 * Start by downloading NodeJS and installing it if you dont have it - you can check if you have it by pressing the windows key and searching for `node` - it should look like this if you have it installed
 
-![](https://raw.githubusercontent.com/FiskDk/disco-rd/master/Assets/win/nodejs_check.png)
+![](https://raw.githubusercontent.com/FiskDk/disco-rd/master/img/win/nodejs_check.png)
 
 * Now download the installer : [Disco-RD Windows](https://raw.githubusercontent.com/FiskDk/Disco-RD-Windows-Installer/blob/master/Disco-RD%20Injector.exe)
 * Now make sure Discord is installed - and running
 
-![](https://raw.githubusercontent.com/FiskDk/disco-rd/master/Assets/win/discord_running.png)
+![](https://raw.githubusercontent.com/FiskDk/disco-rd/master/img/win/discord_running.png)
 
 * Now open "Disco-RD Injector.exe"
 * A window like this should pop up
 
-![](https://raw.githubusercontent.com/FiskDk/disco-rd/master/Assets/win/protect.png)
+![](https://raw.githubusercontent.com/FiskDk/disco-rd/master/img/win/protect.png)
 
 * Click "More info"
 *  It should now look like this
 
-![](https://raw.githubusercontent.com/FiskDk/disco-rd/master/Assets/win/more_info.png)
+![](https://raw.githubusercontent.com/FiskDk/disco-rd/master/img/win/more_info.png)
 
 * Now click "Run anyway"
 * The installer should now open - and you'll see this window
 
-![](https://raw.githubusercontent.com/FiskDk/disco-rd/master/Assets/win/rd_gui_first.png)
+![](https://raw.githubusercontent.com/FiskDk/disco-rd/master/img/win/rd_gui_first.png)
 
 * Now click the "Install Disco-RD" button
 * It will start installing, you'll see some console windows pop up
 
-![](https://raw.githubusercontent.com/FiskDk/disco-rd/master/Assets/win/installing.png)
+![](https://raw.githubusercontent.com/FiskDk/disco-rd/master/img/win/installing.png)
 
 * just let it run until Discord relaunches then click the "Finish" button
 
-![](https://raw.githubusercontent.com/FiskDk/disco-rd/master/Assets/win/guiDone.png)
+![](https://raw.githubusercontent.com/FiskDk/disco-rd/master/img/win/guiDone.png)
 
 * If it shows up like this 
 
-![](https://raw.githubusercontent.com/FiskDk/disco-rd/master/Assets/win/if-only-black.png)
+![](https://raw.githubusercontent.com/FiskDk/disco-rd/master/img/win/if-only-black.png)
 
 * Then click `CTRL + R` to reload Discord
 * It should now look like this
 
-![](https://raw.githubusercontent.com/FiskDk/disco-rd/master/Assets/win/done.png)
+![](https://raw.githubusercontent.com/FiskDk/disco-rd/master/img/win/done.png)
 
 ##### PowerShell tutorial
 ###### only use this if the installer dosn't work
