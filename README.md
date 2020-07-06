@@ -128,7 +128,7 @@
 
 * When it says its done, you can go and close the window and launch Discord
 
-If it instantly closes when you run the code, the check if you have NodeJS installed
+If it instantly closes when you run the code, then check if you have NodeJS installed
 
 [NodeJS](https://nodejs.org/en/)
 
