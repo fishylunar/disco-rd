@@ -218,7 +218,7 @@ Now when you go to Discord in your browser you should see Disco-RD
 
 </details>
 
-# RDWrapper
+# [RDWrapper](https://github.com/FiskDk/RDWrapper)
 
 <img src="https://github.com/FiskDk/RDWrapper/raw/master/RDWrapper.png" width="128">
 
