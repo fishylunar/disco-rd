@@ -272,3 +272,6 @@ Remove-Item -Recurse -Force "rd"
 echo "You can now launch Discord - Thanks for installing Disco-RD <3 - if you need help - contact me f1sk#3621 on Discord"
 <3 - you can close this now
 ```
+
+
+Disco-RD, RDWrapper, And anything else with the "a part of Disco-RD" branding is not affiliated with Discord.
