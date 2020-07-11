@@ -303,4 +303,4 @@ Now open RDWrapper.cmd and follow the instructions
 https://drive.google.com/file/d/1NlfrEdETX1lH1it6IWX2FiSdH2AW4-Ag/view?usp=sharing
 </details>
 
-Disco-RD, RDWrapper, And anything else with the "a part of Disco-RD" branding is not affiliated with Discord.
+> Disco-RD, RDWrapper, And anything else with the "a part of Disco-RD" branding is not affiliated with Discord.
