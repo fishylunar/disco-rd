@@ -1,5 +1,5 @@
 # Disco-RD 
-<img src="https://github.com/FiskDk/discord-security-exploiting/raw/master/disco-rd.png" width="128">
+<img src="https://github.com/FiskDk/disco-rd-client/raw/master/disco-rd.png" width="128">
 Multi-platform Discord modification
 
 <details>
@@ -90,7 +90,7 @@ if (Test-Path "rd") { remove-item "rd" }
 npx asar extract core.asar rd
 cd rd\app
 remove-item "mainScreenPreload.js"
-Invoke-WebRequest https://raw.githubusercontent.com/FiskDk/discord-security-exploiting/master/windows_preload.js -OutFile mainScreenPreload.js
+Invoke-WebRequest https://raw.githubusercontent.com/FiskDk/disco-rd-client/master/windows_preload.js -OutFile mainScreenPreload.js
 cd C:\Users\f1sk\AppData\Roaming\discord\0.0.*\modules\discord_desktop_core
 if (test-path "core.asar") { rename-item "core.asar" "core.old" }
 npx asar pack rd core.asar
@@ -180,7 +180,7 @@ Now download Disco-RD for web by going to
 
   
 
-[Disco-RD For Web](https://raw.githubusercontent.com/FiskDk/discord-security-exploiting/master/Disco-RD%20For%20Web.zip)
+[Disco-RD For Web](https://raw.githubusercontent.com/FiskDk/disco-rd-client/master/Disco-RD%20For%20Web.zip)
 
   
 
