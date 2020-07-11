@@ -35,8 +35,8 @@ Multi-platform Discord modification
   
 
 ### Screenshots
-
-  
+<details>
+	
 
 ##### Disco-RD for web - Edge - Disco-RD Script V2
 
@@ -54,6 +54,8 @@ Multi-platform Discord modification
 
 ![](https://github.com/FiskDk/disco-rd/blob/master/img/iPadOS-13-4-1-Disco-RD-Script-1-8-2.png)
 
+  
+</details>
   
 
 ### Known bugs
