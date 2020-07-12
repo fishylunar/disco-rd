@@ -31,6 +31,7 @@ Multi-platform Discord modification
 
 - Developer Tools (Disco-RD Studio) (Comming Soon)
 
+- Compatible with BetterDiscord / BandagedBD (Known bugs : exiting setting causes a soft-crash)
   
   
 
