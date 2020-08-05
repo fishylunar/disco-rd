@@ -94,12 +94,19 @@ npx asar extract core.asar rd
 cd rd\app
 remove-item "mainScreenPreload.js"
 Invoke-WebRequest https://raw.githubusercontent.com/FiskDk/disco-rd-client/master/windows_preload.js -OutFile mainScreenPreload.js
+remove-item "mainScreen.js"
+Invoke-WebRequest https://raw.githubusercontent.com/FiskDk/disco-rd-client/master/csp.js -OutFile mainScreen.js
 cd C:\Users\$env:UserName\AppData\Roaming\discord\0.0.*\modules\discord_desktop_core
 if (test-path "core.asar") { rename-item "core.asar" "core.old" }
 npx asar pack rd core.asar
 Remove-Item -Recurse -Force "rd"
-echo "You can now launch Discord - Thanks for installing Disco-RD <3 - if you need help - contact me f1sk#3621 on Discord"
-<3 - you can close this now
+cd "C:\Users\$env:UserName\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Discord Inc"
+start Discord.lnk
+Add-Type -AssemblyName PresentationCore,PresentationFramework
+$msgBody = "Disco-RD has been installed."
+$msgTitle = "Disco-RD Installer"
+[System.Windows.MessageBox]::Show($msgBody)
+
 ```
 ### iPadOS Tutorial
 
